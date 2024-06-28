@@ -8,7 +8,7 @@ def main():
     ########################################
     """
     total = 0
-    numbers = [0] * 5
+    numbers = []
     for i in range(5):
         numbers.append(random.randint(0, 100))
         total += numbers[i]
